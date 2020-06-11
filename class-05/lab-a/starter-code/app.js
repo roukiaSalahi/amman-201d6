@@ -103,7 +103,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+    var total=multiply(2,3)[0];
+    var total2= multiply(total,4)[0];
+    var message='The numbers 2,3,4 have a product of 24.';
+    return[total2,message];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
